@@ -55,3 +55,59 @@ lib/
 ├── theme/          # Design System (ALUColors, ThemeData)
 ├── widgets/        # Reusable UI Components
 └── main.dart       # App Entry Point & Navigation Logic
+
+
+```
+🚀 Installation & Setup
+Follow these steps to run the project locally on your machine.
+
+1. Prerequisites
+Ensure you have the following installed:
+
+Flutter SDK: Install Guide
+
+VS Code or Android Studio
+
+Git: Download Git
+
+An Android Emulator or physical device connected via USB.
+
+2. Clone the Repository
+Open your terminal and run the following commands:
+
+Bash
+# Clone the project
+git clone [https://github.com/YourUsername/alu_academic_assistant.git](https://github.com/YourUsername/alu_academic_assistant.git)
+
+# Navigate into the project directory
+cd alu_academic_assistant
+3. Install Dependencies
+Download the required packages (shared_preferences, intl, uuid) listed in pubspec.yaml:
+
+Bash
+flutter pub get
+4. Run the Application
+Connect your device or start your emulator, then run:
+
+Bash
+flutter run
+📱 User Guide
+Dashboard: Check the "At a Glance" section for your daily summary. The attendance card will turn Red if you are below 75%.
+
+Assignments: Tap the + button to add a new task. Swipe an item left to Delete it. Tap the checkbox to mark it Done.
+
+Schedule: Add your classes for the week. Use the "Present/Absent" chips on each card to log your attendance.
+
+👥 Contributors
+HonourGod Levison - Project Lead & Navigation
+
+Dan Nkusi - UI/UX Design & Dashboard Logic
+
+Erica Ishimwe - Assignment Management Feature
+
+Kadi Koita - Schedule & Attendance Tracking
+
+Loic Higiro - Data Persistence & Storage
+
+📄 License
+This project is created for the Mobile App Development course at African Leadership University.
