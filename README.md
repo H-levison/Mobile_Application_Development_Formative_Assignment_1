@@ -58,10 +58,11 @@ lib/
 
 
 ```
-🚀 Installation & Setup
+## 🚀 Installation & Setup
+
 Follow these steps to run the project locally on your machine.
 
-1. Prerequisites
+**1. Prerequisites**
 Ensure you have the following installed:
 
 Flutter SDK: Install Guide
@@ -76,7 +77,7 @@ An Android Emulator or physical device connected via USB.
 Open your terminal and run the following commands:
 
 # Clone the project
-git clone [https://github.com/YourUsername/alu_academic_assistant.git](https://github.com/YourUsername/alu_academic_assistant.git)
+git clone (https://github.com/H-levison/Mobile_Application_Development_Formative_Assignment_1.git)
 
 # Navigate into the project directory
 cd alu_academic_assistant
@@ -93,14 +94,14 @@ Connect your device or start your emulator, then run:
 Bash
 flutter run
 
-📱 User Guide
+## 📱 User Guide
 Dashboard: Check the "At a Glance" section for your daily summary. The attendance card will turn Red if you are below 75%.
 
 Assignments: Tap the + button to add a new task. Swipe an item left to Delete it. Tap the checkbox to mark it Done.
 
 Schedule: Add your classes for the week. Use the "Present/Absent" chips on each card to log your attendance.
 
-👥 Contributors
+## 👥 Contributors
 HonourGod Levison - Project Lead & Navigation
 
 Dan Nkusi - UI/UX Design & Dashboard Logic
@@ -111,5 +112,5 @@ Kadi Koita - Schedule & Attendance Tracking
 
 Loic Higiro - Data Persistence & Storage
 
-📄 License
+## 📄 License
 This project is created for the Mobile App Development course at African Leadership University.
