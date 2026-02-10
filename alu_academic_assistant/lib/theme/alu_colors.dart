@@ -7,4 +7,5 @@ class ALUColors {
   static const Color textBlack = Color(0xFF1A1A1A);
   static const Color warningRed = Color(0xFFD32F2F);
   static const Color successGreen = Color(0xFF388E3C);
+  static const Color primaryBlue = Color(0xFF012E6C);
 }
