@@ -1,7 +1,6 @@
 import 'package:flutter/material.dart';
-import 'package:shared_preferences/shared_preferences.dart';
 import 'models/data_models.dart';
-import 'services/data_service.dart';
+import 'services/data_services.dart';
 import 'screens/dashboard_screen.dart';
 import 'screens/assignments_screen.dart';
 import 'screens/schedule_screen.dart';
@@ -86,8 +85,26 @@ class _ALUAppState extends State<ALUApp> {
 
     return MaterialApp(
       debugShowCheckedModeBanner: false,
-      title: 'ALU Academic Assistant',
-      theme: ThemeData(primaryColor: ALUColors.primaryMaroon, scaffoldBackgroundColor: ALUColors.background),
+      theme: ThemeData(
+        primaryColor: ALUColors.primaryMaroon,
+        scaffoldBackgroundColor: ALUColors.background,
+        // This makes all AppBar titles white by default
+        appBarTheme: const AppBarTheme(
+          backgroundColor: ALUColors.primaryMaroon,
+          foregroundColor: Colors.white,
+          titleTextStyle: TextStyle(
+            color: Colors.white,
+            fontSize: 20,
+            fontWeight: FontWeight.bold,
+          ),
+        ),
+        // This makes all body text blue by default
+        textTheme: const TextTheme(
+          bodyLarge: TextStyle(color: ALUColors.textBlue),
+          bodyMedium: TextStyle(color: ALUColors.textBlue),
+          displayLarge: TextStyle(color: ALUColors.textBlue),
+        ),
+      ),
       home: Scaffold(
         body: _screens[_currentIndex],
         bottomNavigationBar: BottomNavigationBar(
